@@ -5,7 +5,7 @@ This is a custom Django user authentication project featuring:
 - 👨‍⚕️ Role-based dashboards (Doctor & Patient)
 - 🖼️ Profile picture upload
 - 🔒 Custom signup & login
-- 🎥 Video background login page
+- 
 
 ## 🚀 How to Run
 
