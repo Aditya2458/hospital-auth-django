@@ -1,0 +1,10 @@
+<!-- doctor_dashboard.html -->
+<h2>Welcome, Dr. {{ user.first_name }} (Doctor)</h2>
+<p>Email: {{ user.email }}</p>
+<p>Address: {{ user.address_line1 }}, {{ user.city }}, {{ user.state }} - {{ user.pincode }}</p>
+
+{% if user.profile_picture %}
+    <img src="{{ user.profile_picture.url }}" width="100"/>
+{% else %}
+    <p>No profile picture uploaded.</p>
+{% endif %}
